@@ -1,11 +1,11 @@
 import { Icon } from "@iconify/react";
 
-import iconYudha from "@assets/icons/profile/icon_yudha.png";
+import iconNelli from "@assets/icons/profile/icon_yudha.png";
 
 export default function HeroSection() {
   const currentStatuses = [
     { icon: "ri:code-s-slash-line", label: "Full Stack Developer" },
-    { icon: "ri:map-pin-2-line", label: "Sidoarjo, Jawa Timur" },
+    { icon: "ri:map-pin-2-line", label: "Mojokerto, Jawa Timur" },
     {
       icon: "ri:linkedin-box-line",
       label: "Connect on LinkedIn",
@@ -16,7 +16,7 @@ export default function HeroSection() {
     <section className="flex lg:pt-16 pt-6" id="home">
       <div className="mx-auto text-center justify-content-center">
         <img
-          src={iconYudha}
+          src={iconNelli}
           className="w-20 mb-4 mx-auto"
           alt="icon-yudha-with-mac"
         />
