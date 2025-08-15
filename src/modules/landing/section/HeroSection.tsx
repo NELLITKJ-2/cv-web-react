@@ -4,9 +4,9 @@ import iconNelli from "@assets/icons/profile/icon_Nelli.png";
 
 export default function HeroSection() {
   const currentStatuses = [
-    { icon: "ri:code-s-slash-line", label: "TKJ 2 student
+    { icon: "ri:code-s-slash-line", label: "TKJ 2 students "
       " },
-    { icon: "ri:map-pin-2-line", label: "Mojokerto, Jawa Timur" },
+    { icon: "ri:map-pin-2-line", label: "Bajangan , Jawa Timur" },
     {
       icon: "ri:linkedin-box-line",
       label: "Connect on LinkedIn",
@@ -17,7 +17,7 @@ export default function HeroSection() {
     <section className="flex lg:pt-16 pt-6" id="home">
       <div className="mx-auto text-center justify-content-center">
         <img
-          src={iconNelli          className="w-20 mb-4 mx-auto"
+          src={iconNelli className="w-20 mb-4 mx-auto"
           alt="icon-Nelli-with-mac"
         />
         <h1 className="text-3xl font-bold mb-4">I'm Nelli</h1>
