@@ -9,7 +9,7 @@ export default function HeroSection() {
     {
       icon: "ri:linkedin-box-line",
       label: "Connect on LinkedIn",
-      url: "https://www.linkedin.com/in/ktyudha",
+      url: "https://www.linkedin.com/in/Nellievania",
     },
   ];
   return (
@@ -18,7 +18,7 @@ export default function HeroSection() {
         <img
           src={iconNelli}
           className="w-20 mb-4 mx-auto"
-          alt="icon-yudha-with-mac"
+          alt="icon-Nelli-with-mac"
         />
         <h1 className="text-3xl font-bold mb-4">I'm Nelli</h1>
 
